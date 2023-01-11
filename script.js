@@ -15,7 +15,6 @@ class Flat {
     citizens (objectHuman) {
         this.citizensArray.push(objectHuman)
         console.log(`People in this flat that do not aim with a gun: ${this.citizensArray.length}`)
-        return this;
     }
 }
 
@@ -33,7 +32,6 @@ class House {
             
             this.flatArray.push(flat);
             console.log(`Number of flats: ${this.flatArray.length}`)
-            return this;
         }
     };
 }
